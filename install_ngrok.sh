@@ -9,12 +9,12 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 shell_run_start=`date "+%Y-%m-%d %H:%M:%S"`   #shell run start time
 version="4.4"
-program_download_url=https://raw.githubusercontent.com/clangcn/ngrok-one-key-install/master/latest/
+program_download_url=https://raw.githubusercontent.com/SageSBR/ngrok-one-key-install/master/latest/
 x64_file=server_ngrokd_linux_amd64
 x86_file=server_ngrokd_linux_386
 md5sum_file=md5sum.md
-program_init_download_url=https://raw.githubusercontent.com/clangcn/ngrok-one-key-install/master/ngrokd.init
-str_install_shell=https://raw.githubusercontent.com/clangcn/ngrok-one-key-install/master/install_ngrok.sh
+program_init_download_url=https://raw.githubusercontent.com/SageSBR/ngrok-one-key-install/master/ngrokd.init
+str_install_shell=https://raw.githubusercontent.com/SageSBR/ngrok-one-key-install/master/install_ngrok.sh
 str_ngrok_dir="/usr/local/ngrok"
 contact_us="http://koolshare.cn/forum-72-1.html"
 function shell_update(){
@@ -540,4 +540,3 @@ update)
     echo "Usage: `basename $0` {install|uninstall|update|config}"
     ;;
 esac
-
